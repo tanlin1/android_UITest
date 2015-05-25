@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+		>
+	<utils.CircleImageView android:layout_width="56dp"
+	                                 android:layout_height="56dp"
+	                                 android:id="@+id/index_head_photo_thumbnail"
+                                     android:src="@drawable/head2"
+			/>
+	<TextView android:layout_width="wrap_content"
+	          android:layout_height="29sp"
+	          android:layout_alignTop="@id/index_head_photo_thumbnail"
+	          android:layout_toRightOf="@id/index_head_photo_thumbnail"
+	          android:id="@+id/userNameIndex"
+	          style="@style/user_index_head_photo_info"
+			/>
+
+	<ImageView android:layout_width="15dp"
+	           android:layout_height="15dp"
+	           android:id="@+id/location"
+	           android:layout_below="@id/userNameIndex"
+	           android:layout_alignLeft="@id/userNameIndex"
+	           android:layout_alignBottom="@id/index_head_photo_thumbnail"
+	           android:src="@drawable/index_location_image_button"
+			/>
+	<TextView android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_below="@id/userNameIndex"
+	          android:layout_alignLeft="@id/location"
+	          android:layout_marginLeft="20sp"
+	          android:layout_alignBottom="@id/index_head_photo_thumbnail"
+	          android:singleLine="true"
+	          android:gravity="center|bottom"
+	          android:id="@+id/address"
+	          android:text=""
+	          android:textSize="15sp"
+	          android:textColor="@android:color/darker_gray"
+			/>
+
+	<TextView android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="4day"
+	          android:id="@+id/daysAgo"
+
+	          android:layout_alignParentRight="true"
+	          android:layout_marginRight="16dp"
+	          android:layout_alignBottom="@id/address"
+	          android:layout_marginBottom="10dp"
+
+			/>
+	<ImageView android:layout_width="20dp"
+	           android:layout_height="20dp"
+	           android:id="@+id/time"
+	           android:src="@drawable/index_clock_img_button"
+	           android:layout_toLeftOf="@id/daysAgo"
+	           android:layout_marginRight="5dp"
+	           android:layout_alignBottom="@id/address"
+	           android:layout_marginBottom="10dp"
+			/>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+		>
+
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	        android:id="@+id/button"
+			/>
+
+	<com.example.uitest.view.CustomListView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/mListView"
+			android:divider="#bdc3c7"
+			android:dividerHeight="18dp"
+			android:scrollbars="none"
+			android:cacheColorHint="#00000000"
+			android:fastScrollEnabled="false"
+			/>
+	<!--<com.example.uitest.view.RefreshableView android:layout_width="fill_parent"-->
+	<!--android:layout_height="fill_parent"-->
+
+	<!-->-->
+	<!--</com.example.uitest.view.RefreshableView>-->
+
+</LinearLayout>

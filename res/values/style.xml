@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--style文件，为了是代码看起来简洁一些，采用XML文件配置方式，
+将类似的布局抽象出来-->
+<resources>
+
+	<style name="buttonAndImage" >
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:state_checkable">true</item>
+		<item name="android:clipChildren">false</item>
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+		<item name="android:background">@drawable/index_menu_button_back</item>
+	</style>
+
+	<!--底部图片按钮-->
+	<style name="bottom_tabs_image" >
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_gravity">center_vertical</item>
+	</style>
+
+	<!--首页上，为了是图片有悬浮效果，除图片外，其余内容边距大一些-->
+	<style name="list_content_margin">
+		<item name="android:background">#ecf0f1</item>
+		<item name="android:layout_marginLeft">10dp</item>
+		<item name="android:layout_marginRight">10dp</item>
+		<item name="android:paddingLeft">16dp</item>
+	</style>
+	<!-- app 首页 上 喜欢，评论等文字-->
+	<style name="user_picture_like_info">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#646464</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+
+	<!--app 首页上，相片描述-->
+	<style name="user_picture_describe_info">
+		<item name="android:background">#ecf0f1</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	<!--app 主页上，头像文字-->
+	<style name="user_index_head_photo_info">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@android:color/background_dark</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:layout_marginLeft">16dp</item>
+	</style>
+
+	<!--个人主页中，文字（照片，关注，粉丝等）-->
+	<style name="user_home_detail_text_style">
+		<item name="android:textSize">22sp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#a0a5a8</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<!--个人主页中，数字风格（与相对应的文字的主要区别是颜色不相同）-->
+	<style name="user_home_detail_number_style">
+		<item name="android:textSize">22sp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#26313b</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<!--个人中心，第二个页面中：class类的几个图片按钮-->
+	<style name="user_home_photo_image_style">
+		<item name="android:paddingTop">8dp</item>
+		<item name="android:paddingBottom">8dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">45dp</item>
+	</style>
+	<!--通知与私信外面嵌套的线性布局-->
+	<style name="message_index_notice_content_tab">
+		<item name="android:layout_width">85dp</item>
+		<item name="android:layout_height">fill_parent</item>
+		<!--<item name="android:background">@drawable/message_index_notice_coner</item>-->
+		<item name="android:gravity">center</item>
+		<item name="android:layout_marginTop">2dp</item>
+		<item name="android:layout_marginBottom">2dp</item>
+	</style>
+
+	<!--通知与私信外面嵌套的线性布局-->
+	<style name="message_index_private_content_tab">
+		<item name="android:layout_width">85dp</item>
+		<item name="android:layout_height">fill_parent</item>
+		<!--<item name="android:background">@drawable/message_index_private_coner</item>-->
+		<item name="android:gravity">center</item>
+		<item name="android:layout_marginTop">2dp</item>
+		<item name="android:layout_marginBottom">2dp</item>
+	</style>
+
+
+
+	<!--消息中心，标题栏 “通知，私信”-->
+	<style name="message_index_content_text">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/dark</item>
+	</style>
+	<!--选择照片完成或者是拍照完成时的界面：分类信息布局格式-->
+	<style name="share_index_classes_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/dark</item>
+		<item name="android:layout_marginLeft">6dp</item>
+	</style>
+	<!--选择照片完成或者是拍照完成时的界面：地理位置信息布局格式-->
+	<style name="share_index_places_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/dark</item>
+		<item name="android:layout_centerInParent">true</item>
+	</style>
+	
+	
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:weightSum="3">
+		<!--照片-->
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1">
+
+			<TextView
+					style="@style/user_home_detail_number_style"
+					android:text="171"
+					android:id="@+id/user_home_photo_num"
+					android:layout_gravity="center_horizontal"/>
+
+			<TextView
+					style="@style/user_home_detail_text_style"
+					android:text="照片"
+					android:id="@+id/user_home_photo_text"
+					android:layout_gravity="center_horizontal"/>
+
+		</LinearLayout>
+		<!--关注-->
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1">
+
+			<TextView
+					style="@style/user_home_detail_number_style"
+					android:text="28"
+					android:layout_gravity="center_horizontal"
+					android:id="@+id/user_home_follow_num"/>
+
+			<TextView
+					style="@style/user_home_detail_text_style"
+					android:text="关注"
+					android:layout_gravity="center_horizontal"
+					android:id="@+id/user_home_follow_text"/>
+
+		</LinearLayout>
+		<!--粉丝-->
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1">
+
+			<TextView
+					style="@style/user_home_detail_number_style"
+					android:text="339"
+					android:layout_gravity="center_horizontal"
+					android:id="@+id/user_home_fans_num"/>
+
+			<TextView
+					style="@style/user_home_detail_text_style"
+					android:text="粉丝"
+					android:layout_gravity="center_horizontal"
+					android:id="@+id/user_home_fans_text"/>
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

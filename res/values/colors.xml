@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#fa00ab00</color>
+    <color name="transparent">#00000000</color>
+
+	<color name="green">@android:color/holo_green_light</color>
+	<color name="blue">@android:color/holo_blue_bright</color>
+	<color name="red">@android:color/holo_red_light</color>
+	<color name="dark">@android:color/background_dark</color>
+	<color name="tab_selected_bg">#C4E1E1</color>
+	<color name="white">#ffffff</color>
+	<color name="custom">#00a57d</color>
+	<color name="gray">@android:color/darker_gray</color>
+	<color name="camera_back">#d95e40</color>
+	<color name="picture_back">#f2992e</color>
+	<color name="notice_button">#f9f9f9</color>
+	<color name="picture_select">#3498db</color>
+
+</resources>

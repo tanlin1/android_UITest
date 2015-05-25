@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">android_UITest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="more_data">加载更多</string>
+    <string name="load_more">正在加载...</string>
+    <string name="pull_to_refresh_release_label">释放立即刷新</string>
+    <string name="pull_to_refresh_refresh_lasttime">更新于:暂未更新</string>
+    <string name="pull_to_refresh_refreshing">正在刷新...</string>
+    <string name="pull_to_refresh_refresh_pull_down">下拉刷新</string>
+
+    <string name="image_desc">图片</string>
+    
+    <string name="ver">版本: v1.0.0</string>
+    <string name="size">大小: 13MB</string>
+    <string name="mgr">管理</string>
+    <string name="name">应用Demo</string>
+
+</resources>
